@@ -1,0 +1,41 @@
+
+
+.dashboard-container {
+  padding: 10px 30px;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  .image-container {
+    flex: 0 0 auto;
+    .profile-image {
+      border-radius: 50%;
+      width: 35%;
+      //height: 50%;
+    }
+  }
+
+  .photo-txt {
+    font-weight: bold;
+    font-size: 36px;
+    color: #46535e;
+  }
+
+  .photo-btn {
+    background: #4c9cdf;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 12px;
+    margin-left: 13px;
+    height: auto;
+    align-self: center;
+    font-size: 13px;
+    cursor: pointer;
+  }
+}
+
+.photocard-section {
+  display:flex;
+  flex-wrap: wrap;
+
+}

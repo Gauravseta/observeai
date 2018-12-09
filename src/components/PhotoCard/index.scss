@@ -1,0 +1,38 @@
+.photocard-item {
+  padding: 10px;
+
+  .action-menus {
+    background: #4c9cdf;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5px;
+    padding: 4px 0px;
+    border-radius: 4px;
+    span {
+      flex: 1;
+      text-align: center;
+
+      &.comment-icon {
+        flex: 0 1 auto;
+      }
+
+      i {
+        color: white;
+        cursor: pointer;
+        &:hover {
+          color: black;
+        }
+      }
+      .likes {
+        color: #46535e;
+        font-size: 15px;
+        margin-left: 2px;
+        font-weight: bold;
+      }
+    }
+  }
+  img {
+    width: 150px;
+    height: 150px;
+  }
+}
